@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains exide_hello_world.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function exide_hello_world_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the exide_hello_world module.
+    case 'help.page.exide_hello_world':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Hello World Module created for exide') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function exide_hello_world_theme() {
+  return [
+    'exide_hello_world' => [
+      'render element' => 'children',
+    ],
+  ];
+}

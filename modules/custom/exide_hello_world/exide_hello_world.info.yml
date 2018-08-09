@@ -1,0 +1,5 @@
+name: 'Exide Hello World'
+type: module
+description: 'Hello World Module created for exide'
+core: 8.x
+package: 'custom'

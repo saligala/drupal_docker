@@ -1,0 +1,14 @@
+{
+  "name": "drupal/exide_hello_world",
+  "type": "drupal-module",
+  "description": "Hello World Module created for exide",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/exide_hello_world",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/exide_hello_world",
+    "source": "http://cgit.drupalcode.org/exide_hello_world"
+  },
+  "require": { }
+}
