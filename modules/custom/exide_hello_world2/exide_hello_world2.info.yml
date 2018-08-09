@@ -1,0 +1,5 @@
+name: 'Exide Hello World2'
+type: module
+description: 'Hello World2 module'
+core: 8.x
+package: 'Custom'
